@@ -1,0 +1,426 @@
+[
+    {
+        "time": "19:45",
+        "event_type": "UEFA Europa League",
+        "home_team": "Bodo/Glimt",
+        "away_team": "Lazio",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-47.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/univision-deportes.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/canal-52.php"
+            },
+            {
+                "id": 4,
+                "url": "https://www.pirlotvdh.lol/ver/espn-2.php"
+            }
+        ]
+    },
+    {
+        "time": "19:45",
+        "event_type": "Conference League",
+        "home_team": "Legia Warszawa",
+        "away_team": "Chelsea",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/movistar-liga-campeones-2.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/movistar-liga-campeones-2.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/canal-44.php"
+            }
+        ]
+    },
+    {
+        "time": "22:00",
+        "event_type": "Conference League",
+        "home_team": "Celje",
+        "away_team": "Fiorentina",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-40.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/movistar-liga-campeones-6.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/canal-55.php"
+            }
+        ]
+    },
+    {
+        "time": "22:00",
+        "event_type": "League Two",
+        "home_team": "Crewe Alexandra",
+        "away_team": "Cheltenham Town",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-80.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-8.php"
+            }
+        ]
+    },
+    {
+        "time": "22:00",
+        "event_type": "Conference League",
+        "home_team": "Djurgarden",
+        "away_team": "Rapid Wien",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-56.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/movistar-liga-campeones-7.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/canal-22.php"
+            }
+        ]
+    },
+    {
+        "time": "22:00",
+        "event_type": "UEFA Europa League",
+        "home_team": "Olympique Lyon",
+        "away_team": "Manchester United",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-44.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/univision-deportes.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/espn.php"
+            },
+            {
+                "id": 4,
+                "url": "https://www.pirlotvdh.lol/ver/canal-51.php"
+            }
+        ]
+    },
+    {
+        "time": "22:00",
+        "event_type": "UEFA Europa League",
+        "home_team": "Rangers",
+        "away_team": "Athletic Club",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/athletic-club.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/movistar-liga-campeones.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/canal-45.php"
+            },
+            {
+                "id": 4,
+                "url": "https://www.pirlotvdh.lol/ver/espn-4.php"
+            },
+            {
+                "id": 5,
+                "url": "https://www.pirlotvdh.lol/ver/canal-53.php"
+            }
+        ]
+    },
+    {
+        "time": "22:00",
+        "event_type": "Conference League",
+        "home_team": "Real Betis",
+        "away_team": "Jagiellonia",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-5.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-54.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/canal-28.php"
+            },
+            {
+                "id": 4,
+                "url": "https://www.pirlotvdh.lol/ver/movistar-liga-campeones-2.php"
+            }
+        ]
+    },
+    {
+        "time": "22:00",
+        "event_type": "UEFA Europa League",
+        "home_team": "Tottenham",
+        "away_team": "Eintracht Frankfurt",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-46.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-52.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/espn-3.php"
+            },
+            {
+                "id": 4,
+                "url": "https://www.pirlotvdh.lol/ver/movistar-liga-campeones-5.php"
+            }
+        ]
+    },
+    {
+        "time": "01:00",
+        "event_type": "Copa Sudamericana",
+        "home_team": "Defensa y Justicia (Arg)",
+        "away_team": "VitÃ³ria (Bra)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/espn-3.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-82.php"
+            }
+        ]
+    },
+    {
+        "time": "01:00",
+        "event_type": "Copa Libertadores",
+        "home_team": "Internacional (Bra)",
+        "away_team": "AtlÃ©tico Nacional (Col)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-84.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/bein-sports.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/espn.php"
+            }
+        ]
+    },
+    {
+        "time": "01:00",
+        "event_type": "Copa Libertadores",
+        "home_team": "Racing Club (Arg)",
+        "away_team": "AtlÃ©tico Bucaramanga (Col)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/espn-5.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-83.php"
+            }
+        ]
+    },
+    {
+        "time": "03:00",
+        "event_type": "Copa Libertadores",
+        "home_team": "Colo Colo (Chi)",
+        "away_team": "Fortaleza (Bra)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/espn-5.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-115.php"
+            }
+        ]
+    },
+    {
+        "time": "03:00",
+        "event_type": "Liga BetPlay DIMAYOR",
+        "home_team": "La Equidad",
+        "away_team": "Ind. Santa Fe",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/ganar-deportes.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-81.php"
+            }
+        ]
+    },
+    {
+        "time": "03:00",
+        "event_type": "Liga Pro",
+        "home_team": "MacarÃ¡",
+        "away_team": "Deportivo Cuenca",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/cnt-sports.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/ecuavisa.php"
+            }
+        ]
+    },
+    {
+        "time": "03:00",
+        "event_type": "Liga Pro",
+        "home_team": "Manta",
+        "away_team": "TÃ©cnico Universitario",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/cnt-sports.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/ecuavisa.php"
+            }
+        ]
+    },
+    {
+        "time": "03:30",
+        "event_type": "Copa Sudamericana",
+        "home_team": "AtlÃ©tico Mineiro (Bra)",
+        "away_team": "Deportes Iquique (Chi)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-83.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/directv.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/directv.php"
+            }
+        ]
+    },
+    {
+        "time": "03:30",
+        "event_type": "Copa Sudamericana",
+        "home_team": "Fluminense (Bra)",
+        "away_team": "GV San Jose (Bol)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-117.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/directv-plus.php"
+            }
+        ]
+    },
+    {
+        "time": "03:30",
+        "event_type": "Copa Sudamericana",
+        "home_team": "GuaranÃ­ (Par)",
+        "away_team": "Nacional PotosÃ­ (Bol)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-82.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/espn-3.php"
+            }
+        ]
+    },
+    {
+        "time": "03:30",
+        "event_type": "Copa Libertadores",
+        "home_team": "Sao Paulo (Bra)",
+        "away_team": "Alianza Lima (Per)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/canal-84.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/bein-sports.php"
+            }
+        ]
+    },
+    {
+        "time": "05:00",
+        "event_type": "Copa Sudamericana",
+        "home_team": "Universidad CatÃ³lica (Ecu)",
+        "away_team": "Cerro Largo (Uru)",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/espn-2.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/canal-84.php"
+            }
+        ]
+    },
+    {
+        "time": "05:05",
+        "event_type": "Liga MX",
+        "home_team": "Tijuana",
+        "away_team": "AtlÃ©tico de San Luis",
+        "links": [
+            {
+                "id": 1,
+                "url": "https://www.pirlotvdh.lol/ver/univision-deportes.php"
+            },
+            {
+                "id": 2,
+                "url": "https://www.pirlotvdh.lol/ver/tv-azteca.php"
+            },
+            {
+                "id": 3,
+                "url": "https://www.pirlotvdh.lol/ver/redzer-tv.php"
+            },
+            {
+                "id": 4,
+                "url": "https://www.pirlotvdh.lol/ver/rojadirecta.php"
+            }
+        ]
+    }
+]
