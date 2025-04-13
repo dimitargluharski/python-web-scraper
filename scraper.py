@@ -12,7 +12,7 @@ load_dotenv()
 url = os.getenv('SCRAPER_URL')
 
 if not url:
-    raise ValueError("❌ SCRAPER_URL is not set in the .env file!")
+    raise ValueError("SCRAPER_URL is not set in the .env file!")
 
 print(f"URL: {url}")
 
@@ -136,4 +136,4 @@ for row in rows:
 with open('events.json', 'w', encoding='utf-8') as f:
     json.dump(list(events.values()), f, ensure_ascii=False, indent=4)
 
-print("✅ Scraped successfully and saved to events.json")
+print("Scraped successfully and saved to events.json")
