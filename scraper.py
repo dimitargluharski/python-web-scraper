@@ -165,55 +165,37 @@ response = requests.get(url, headers=headers)
 if response.status_code != 200:
     raise ValueError(f"❌ Request to {url} failed. Status code: {response.status_code}")
 
-import undetected_chromedriver as uc
+from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
 
 def get_iframe_src_from_link(full_url: str) -> str:
-    import undetected_chromedriver as uc
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.support.ui import WebDriverWait
-    from selenium.webdriver.support import expected_conditions as EC
-
-    options = uc.ChromeOptions()
+    options = Options()
     options.binary_location = "/app/.apt/usr/bin/google-chrome"
-    options.add_argument("--headless=new")
+    options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
-    driver = uc.Chrome(
-        options=options,
-        browser_executable_path="/app/.apt/usr/bin/google-chrome"
-    )
+    service = Service(executable_path="/app/.chromedriver/bin/chromedriver")
+    driver = webdriver.Chrome(service=service, options=options)
 
     try:
-        print(f"🌐 Отварям: {full_url}")
         driver.get(full_url)
-
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.TAG_NAME, "iframe"))
         )
-
         iframes = driver.find_elements(By.TAG_NAME, "iframe")
-        print(f"🔍 Намерени iframe-и: {len(iframes)}")
-
         for iframe in iframes:
             src = iframe.get_attribute("src")
             if src and "radamel.icu" in src:
-                print(f"✅ Намерен iframe src: {src}")
                 return src
-
-        print("⚠️ Не е намерен iframe с 'radamel.icu'")
         return None
-
     except Exception as e:
-        print(f"❌ Грешка при iframe обработка: {e}")
+        print("Грешка:", e)
         return None
-
     finally:
         driver.quit()
 
