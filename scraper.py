@@ -165,7 +165,6 @@ response = requests.get(url, headers=headers)
 if response.status_code != 200:
     raise ValueError(f"❌ Request to {url} failed. Status code: {response.status_code}")
 
-# 🧠 Selenium импорти
 import undetected_chromedriver as uc
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -229,7 +228,6 @@ def get_iframe_src_from_link(full_url: str) -> str:
     finally:
         driver.quit()
 
-# 🧪 Обработка на HTML и събития
 soup = BeautifulSoup(response.text, 'html.parser')
 table = soup.find('table', {'id': 'my-table'})
 
@@ -239,7 +237,6 @@ if not table:
 rows = table.find_all('tr')
 events = {}
 
-# 🛠 Помощни функции
 def correct_time(time_str):
     try:
         time_obj = datetime.strptime(time_str, "%H:%M")
@@ -272,7 +269,6 @@ def is_valid_link(link):
         parsed_url = urlparse(link)
     return bool(parsed_url.scheme) and bool(parsed_url.netloc) and 'httpswww' not in link
 
-# 🔁 Основна логика
 for row in rows:
     cells = row.find_all('td')
     if len(cells) >= 3:
@@ -324,7 +320,6 @@ for row in rows:
                 "iframe": iframe_src
             })
 
-# 💾 Запис в JSON
 with open('events.json', 'w', encoding='utf-8') as f:
     json.dump(list(events.values()), f, ensure_ascii=False, indent=4)
 
