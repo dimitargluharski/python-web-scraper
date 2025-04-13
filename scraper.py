@@ -185,7 +185,10 @@ def get_iframe_src_from_link(full_url: str) -> str:
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
 
-    driver = uc.Chrome(options=options)
+    driver = uc.Chrome(
+        options=options,
+        browser_executable_path="/app/.apt/usr/bin/google-chrome"
+    )
 
     try:
         print(f"🌐 Отварям: {full_url}")
